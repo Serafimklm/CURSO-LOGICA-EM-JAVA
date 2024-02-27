@@ -2,24 +2,29 @@ import java.util.Scanner; // Importa a classe Scanner do pacote java.util, que �
 
 public class Main { // Define uma classe  Main.
     public static void main(String[] args) { // Define o método principal da classe Main
+        boolean resposta;
         int fila = 0;
-        //incremento e decremento
-        fila +=1; // o mesmo que +1
-        fila +=1; // o mesmo que +1
-        fila ++; // o mesmo que +1
-        fila ++; // o mesmo que +1
-        fila --; // o mesmo que -1
+        fila = fila+10;
+        System.out.println("o valor de fila é " +fila);
+        resposta = (10 == 20); //o mesmo que perguntar se 10 é o mesmo que 20
+        System.out.println(resposta);
+        resposta = (fila < 11);
+        System.out.println(resposta);
+        resposta = (fila <= 11);
+        System.out.println(resposta);
+        resposta = (fila >= 11);
+        System.out.println(resposta);
 
 
-        System.out.println("Na fila há " +fila+ " pessoas");
+        String n1 = "March";
+        String n2 = "april";
+        resposta = (n1 == n2);  // o melhor para comparação seria: resposta = (n1.equals(n2))
+        System.out.println("a variavel n1 é o mesmo que N2 :" +resposta);
 
-        fila = 0;
-        System.out.println(fila++); /*aqui será imprimido o valor  0 da variável fila, pois o operador
-        de decremento está após o nome da variável, o ++ deveria vir antes para ser imprimido, se eu fizesse (++fila) iria imprimir o valor 1*/
-        System.out.println(fila); //o anterior adcionou um, aqui mantém o 1
-        System.out.println(++fila); // o anterior manteve o 1, aqui adciona +1 = 2
-        System.out.println(--fila); // o anterior teve como resultado 2, aqui subtrai 1 = 1
-        System.out.println(fila); // o anterior foi igual a 1, aqui matém o 1, sem incremento ou decremento.
 
+        String l1 = "april";
+        String l2 = "april";
+        resposta = (l1.equals(l2));
+        System.out.println("a variavel l1 é o mesmo que l2 :" +resposta);
     }
 }
