@@ -1,4 +1,4 @@
-import java.util.Scanner; // Importa a classe Scanner do pacote java.util, que é usada para receber entrada do usuário.
+import java.util.Scanner; // Importa a classe Scanner do pacote java.util, que é usada pra receber entrada do usuário.
 
 public class Main { // Define uma classe  Main.
     public static void main(String[] args) { // Define o método principal da classe Main
