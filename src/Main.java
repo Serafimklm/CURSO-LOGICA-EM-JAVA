@@ -140,7 +140,7 @@ public class Main { // Define uma classe  Main.
 
 
     ===========================================================================================================================*/
-                               // ESTRUTURA ELSE IF //
+        // ESTRUTURA ELSE IF //
 /*
 
         double livroDeitei = 0;
@@ -310,7 +310,7 @@ Process finished with exit code 0*/
          */
 
 
-                                  //  segundo exemplo //
+        //  segundo exemplo //
 /*
         float x = 0;
         Scanner entrada = new Scanner(System.in);
@@ -323,8 +323,222 @@ Process finished with exit code 0*/
 
         //=============================================================================================================//
 
+                          //   ESTRUTURA DE REPETIÇÃO // ENQUANTO WHILE
+ */
+  /*
+        Scanner leitura = new Scanner(System.in);
+
+        System.out.println("digite um número inteiro acima de 0 ");
+        int numero = 0;
+        while (numero >= 0 && numero < 33 ) { // Verifica se o número está fora do intervalo
+            numero = leitura.nextInt();// Impressão
+            System.out.println("Número inserido: " + numero);
+
+        }
+        */
+        //ESTRUTURA DE REPETIÇÃO WHILE//
 
 
-    }
+        /*
+        Scanner leitura = new Scanner(System.in);
+
+        System.out.println("Enquanto o número for maior que zero e menor que 33, o computador vai repetir ");
+        int numero = 0;
+        while (numero >= 0 && numero <= 33 ) { // enquanto número for maior que 0 e numero for menor de 33, repita
+            System.out.println(numero); // imprime o número atual
+            numero++; // incremento +1 a variavel número, número recebe mais 1
+            System.out.print("Número inserido: " ); // Impressão  */
+
+
+        //=============================================================================================================//
+
+        //ESTRUTURA DE REPETIÇÃO FOR//
+ /*
+        System.out.println("digite um numero entre 0 e 50 ");
+        int numero = 0;
+        for (numero = 0; numero <= 22 ; numero++) {  // numero começa em 0, e conta até 50.
+            System.out.println("O numero é " +numero);
+
+        }
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println("couter vai imprimir de 1 a 10 ");
+        int counter = 0;
+        for (counter = 5; counter <= 10; counter++) { // counter começa com 1, counter menor que 10
+            System.out.println("o numero digitado é " + counter);
+        }
+
+        System.out.println();
+        System.out.println();
+
+        //=============================================================================================================//
+
+                                             //ESTRUTURA DE REPETIÇÃO FOR//
+
+            // variável double declarada dentro do proprio laço, fazendo isso, ela só é usada dentro do laço de repetição///
+        for (double indice =14; indice >= -20 ; indice-=2) // enquanto o número imprimido for maior ou igual a -20 ele decrementa menos 2
+             {
+            System.out.println("o valor de indice é " +indice);
+        }
+        for (int valor = 12; valor >= -20; valor--) {
+        System.out.println("valor é " +valor);   // int valor só é válido dentro desse laço, só será imprimido no laço os valore s que esão dentro do for
+        }
+ */
+
+
+        //=============================================================================================================//
+ /*
+                            // Estrutura do while //
+        int opcao ;
+        String nome = "";
+        Scanner leitura = new Scanner(System.in);
+        do {
+            System.out.println("=============menu=============");
+            System.out.println("1. descobrir nome do aluno");
+            System.out.println("2. descobir idade do aluno");
+            System.out.println("3. encerrar programa");
+
+            opcao = leitura.nextInt();
+
+            if (opcao == 1) {
+                System.out.print("o nome do aluno é jonny");
+
+            } else if (opcao == 2) {
+                System.out.println("2. a idade do aluno é 20 ");
+
+            } else if (opcao != 3) {
+                System.out.println("3.  opção invalida");
+
+            }
+        }while (opcao != 3) ;
+        System.out.println("programa encerrado");
+         */
+        //================================================================================================
+ /*
+        // ESTRUTURA WILE SIMPES
+        int x = 1;
+        while (x <= 10) {
+            System.out.println("O número atual é " + x);
+            x++;
+        }
+
+        // ESTRUTURA WILE SIMPES
+        int L = 0;
+        while (L != 4) {
+            System.out.println("o valor de x é " + L);
+            L++;
+        }
+*/
+        //==========================================================================================
+
+        // Estrutrua while //
+ /*
+
+        Scanner scanner = new Scanner(System.in);
+        int numeroSorteado = 23;
+        int numero = 0;
+        boolean jogandor = true;
+
+        while (jogandor) {
+
+            System.out.println("digite um numero de 1 a 30 ");
+            numero = scanner.nextInt();
+
+            if (numero == numeroSorteado) {
+                jogandor = false;
+                System.out.println("você acertou");
+            } else if (numero > 30) {
+                System.out.println("invalido");
+
+            } else if (numero < 0) {
+              System.out.println("invalido");
+        }
+
+         */
+
+
+        //======================================================================================
+        //DO WHILE //
+       /* //
+        int xnumer = 0;
+        do {
+            System.out.println("valor de x é " +xnumer);
+            xnumer += 1;
+
+        }
+        while (xnumer != 4);
+*/
+        //////////////////////////////////////////////////////////////////////////////////////////////
+      /*  Scanner scanner = new Scanner(System.in);
+        int opcao;
+
+        do {
+            System.out.println("==========menu=============");
+            System.out.println("1. mostrar nome da pessoa");
+            System.out.println("2. mostar a idade da pessoa");
+            System.out.println("3. sair do sistema");
+            System.out.println("didite a opção");
+            opcao = scanner.nextInt();
+
+            if (opcao == 1){
+
+            System.out.println("nome jonny");}
+
+            else if (opcao == 2){
+            System.out.println(" idade 23");}
+
+            else if (opcao != 3){
+                System.out.println(" opçcao invalida reiniciando");}
+        }
+        while (opcao != 3);  // enquanto a opção esta diferente de 3, ele continua repetindo,
+        // se for digitado o 3, ele vai considerar como falso e programa vai para o main
+*/
+
+
+        //======================================================================================
+      /*     Scanner scanner = new Scanner(System.in);
+        int contador = 0;
+        while (contador < 10) {
+            contador++;
+
+            if (contador == 4) {
+                continue;
+            }  // ele vai printar de 1 até 10, MENOS o número 4, ele segue o laço de repetição normalmente
+            System.out.println("-------> " + contador);
+        }
+
+        System.out.println("=========================================");
+        System.out.println("=========================================");
+
+        int parada = 0;
+        while (parada < 10) {
+            parada++;
+
+            if (parada >= 5) {
+                break;
+            }  // ele vai printar até que parada seja igual a 5, apos isso ele para.
+            System.out.println("-------> " + parada);
+            */
+        //§========================================================================================================
+        //ULTIMO   EXERCICIO//
+        Scanner scanner = new Scanner(System.in);
+                System.out.println("Insira o ano atual: ");
+                int anoAtual = scanner.nextInt();
+
+                double salarioInicial = 1500;
+                double salarioAtual = salarioInicial;
+                double percentual = 2;
+
+                int tempo = anoAtual - 2003;
+
+                for (int i = 0; i < tempo; i++) {
+                    salarioAtual = salarioAtual + (salarioAtual * percentual / 100);
+                    percentual = 2 * percentual; // Aumenta o percentual em 2% a cada ano
+                }
+
+                System.out.println("Salário atual é: " + salarioAtual);
+            }
+
 }
-
