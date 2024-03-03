@@ -434,7 +434,7 @@ Process finished with exit code 0*/
         //==========================================================================================
 
         // Estrutrua while //
- /*
+ /*//
 
         Scanner scanner = new Scanner(System.in);
         int numeroSorteado = 23;
@@ -523,7 +523,7 @@ Process finished with exit code 0*/
             */
         //§========================================================================================================
         //ULTIMO   EXERCICIO//
-        Scanner scanner = new Scanner(System.in);
+     /*   Scanner scanner = new Scanner(System.in);
                 System.out.println("Insira o ano atual: ");
                 int anoAtual = scanner.nextInt();
 
@@ -541,4 +541,72 @@ Process finished with exit code 0*/
                 System.out.println("Salário atual é: " + salarioAtual);
             }
 
-}
+            for (int i=10; i<100;i++){
+        System.out.println(“olá mundo”);
+    } */
+
+        //--------OPERADOR TERNARIO---------------------
+//        Scanner leitura = new Scanner(System.in);
+//
+//        double notaAluno = 0;
+//        String alunoAprovado = "aluno aprovado";
+//
+//        String Alunoreporvado = "aluno reprovado";
+//
+//        System.out.println("insira a nota do aluno: ");
+//        notaAluno = leitura.nextInt();
+//        String s = (notaAluno < 5) ? alunoAprovado : Alunoreporvado;
+//        System.out.println(notaAluno);
+//====================================================================================================
+
+
+//        double salario = 0;
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("qual o seu salario ? ");
+//        salario = scanner.nextInt();
+//        String resultado = salario > 4000? "vou doar uma parte" : "não consigo doar";
+//        System.out.println(resultado);
+//====================================================================================================
+////
+//        Scanner scanner = new Scanner(System.in);
+//
+//       int soma = 0;
+//        for (int i = 1; i <= 2; i++) {
+//            System.out.println("digite um numero");
+//            int num = scanner.nextInt();
+//            soma = soma + num;
+//        }
+//        System.out.println("soma = " +soma);
+
+        //===========================Estrutura  wile (repetindo enquanto a instrução é verdadeira========================================================================
+       /* Scanner scanner = new Scanner(System.in);
+
+              int soma = 0;
+              int i = 0;
+              while ( i < 10)
+
+        {
+            System.out.println("insira um numero ");
+            i = scanner.nextInt();
+            System.out.println("o número insirido é " +i);
+
+            if ( i > 10){
+                System.out.println("o número é maior que 10 programa encerrado")        }
+; */
+
+
+          /* int contatodor = 0;
+          while (contatodor < 10) {
+              contatodor++;
+              if (contatodor == 4)
+                  break;
+              ;
+              System.out.println("==> " + contatodor);
+          }
+              System.out.println("fianl de laço"); */
+
+
+
+          }
+    }
